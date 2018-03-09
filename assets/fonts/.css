@@ -1,0 +1,8 @@
+/* @font-face kit by Fonts2u (http://www.fonts2u.com) */
+
+@font-face {
+    font-family: "Japanese";
+    src: url("Japanese.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}

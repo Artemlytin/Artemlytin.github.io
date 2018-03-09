@@ -1,0 +1,341 @@
+body {
+    margin: 0;
+}
+
+table {
+    width: 50vw;
+}
+
+#toTop {
+    /*width: 10vw;*/
+    text-align: center;
+    padding: 5px;
+    position: fixed;
+    bottom: 0.5em;
+    right: 1px;
+    cursor: pointer;
+    display: none;
+    color: gray;
+    font-family: 'Rubik', sans-serif;
+    font-weight: bold;
+    font-size: 1.5em;
+    z-index: 20;
+}
+
+
+/*----------[background_video]-----------*/
+
+.is_overlay {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+#trailer {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+}
+
+#trailer>video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.over {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.3)
+}
+
+/*-------------[end]--------------*/
+
+/*------------[menu]-------------*/
+
+.menu_index li {
+    list-style-type: none;
+    display: inline-block;
+
+}
+
+.menu_index {
+    position: absolute;
+    z-index: 2;
+    right: 0;
+    top: 0;
+    padding: 10px 20px;
+    background: rgba(0, 0, 0, 0.3);
+    border-radius: 3px;
+}
+
+.menu_index a {
+    outline: 0;
+    padding: 0px 10px;
+    letter-spacing: 1px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Rubik', sans-serif;
+    font-weight: bold;
+    font-size: 1.05em;
+    color: #919497;
+}
+
+.menu_index a:hover {
+    color: #FFF;
+}
+
+.menu_index .active {
+    color: #fff;
+}
+
+/*--------------[end]---------------*/
+
+/*--------------[logo]--------------*/
+
+.log_index {
+    z-index: 2;
+    position: relative;
+    top: 0;
+    padding-left: 2%;
+    margin: 0;
+    display: block;
+}
+
+.log_index a {
+    position: relative;
+    color: white;
+    text-decoration: none;
+    font-family: 'Rubik', sans-serif;
+    font-size: 5vw;
+    line-height: 0.5em;
+    width: 100%;
+    top: -20px;
+}
+
+.the_dog {
+    font-size: 20%;
+
+}
+
+.MoonbeamsKatakana {
+    font-family: "MoonbeamsKatakana";
+}
+
+/*--------------[end]---------------*/
+
+/*-------------[footer]-------------*/
+
+.copyright_index {
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.2);
+    padding-top: 0.5%;
+}
+
+.copyr_index {
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+    color: rgba(255, 255, 255, 0.3);
+}
+
+.sociallikes {
+    text-align: center;
+    margin: auto;
+}
+
+/*--------------[end]---------------*/
+
+.wrap {
+    width: 100%;
+    background-color: #fff;
+    overflow: hidden;
+    position: relative;
+    margin: auto;
+}
+
+.log {
+    position: relative;
+    top: 0;
+    padding-left: 2%;
+    margin: 0;
+    display: block;
+
+}
+
+.log a {
+    position: relative;
+    font-family: 'Rubik', sans-serif;
+    font-size: 5em;
+    display: block;
+    line-height: 0.5em;
+    width: 100%;
+    color: black;
+    text-decoration: none;
+    top: -20px;
+}
+
+
+
+
+.menu li {
+    list-style-type: none;
+    display: inline-block;
+
+}
+
+.menu {
+    position: absolute;
+    z-index: 2;
+    right: 0;
+    top: 0;
+    padding: 10px 20px;
+    background: rgba(0, 0, 0, 1);
+    border-radius: 3px;
+}
+
+.menu a {
+    outline: 0;
+    padding: 0px 10px;
+    letter-spacing: 1px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Rubik', sans-serif;
+    font-weight: bold;
+    font-size: 1.05em;
+    color: #919497;
+}
+
+.menu a:hover {
+    color: #FFF;
+}
+
+.menu .active {
+    color: #fff;
+}
+
+.foto_h2 {
+    text-align: center;
+}
+
+.cont {
+    line-height: 1.3em;
+    padding-top: 5%;
+    position: relative;
+    width: 85%;
+    margin: auto;
+    font-family: 'Rubik', sans-serif;
+    font-size: 1.2em;
+    padding-bottom: 12%;
+}
+
+.copyright {
+    position: relative;
+    width: 100%;
+    z-index: 10;
+    bottom: 0;
+    background: rgba(0, 0, 0, .942);
+    padding-top: 0.5%;
+}
+
+.copyright p {
+    margin: 0;
+}
+
+.copyr {
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+    color: rgba(255, 255, 255, 0.3);
+    padding: 16px 0 16px;
+}
+
+.puppys_img {
+    margin: auto;
+    max-width: 70%;
+}
+
+.puppys_img img {
+    width: 100%;
+}
+
+.cont a {
+    color: black;
+}
+
+.cont a:hover {
+    color: blue;
+}
+
+.slider {
+    position: relative;
+    margin: auto;
+    width: 80%;
+
+}
+
+
+
+table {
+    border: 1px solid #ccc;
+    border-collapse: collapse;
+    margin: 0;
+    padding: 0;
+    table-layout: fixed;
+    width: 100%;
+}
+
+table tr {
+    background: #f8f8f8;
+    border: 1px solid #ddd;
+    padding: .35em;
+}
+
+table th,
+table td {
+    padding: .625em;
+    text-align: center;
+}
+
+
+
+
+.rslides {
+    position: relative;
+    list-style: none;
+    overflow: hidden;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.rslides li {
+    -webkit-backface-visibility: hidden;
+    position: absolute;
+    display: none;
+    width: 100%;
+    left: 0;
+    top: 0;
+}
+
+.rslides li:first-child {
+    position: relative;
+    display: block;
+    float: left;
+}
+
+.rslides img {
+    display: block;
+    height: auto;
+    float: left;
+    width: 100%;
+    border: 0;
+}

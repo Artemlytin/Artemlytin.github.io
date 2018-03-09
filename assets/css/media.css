@@ -1,0 +1,198 @@
+@media screen and (max-width: 800px) {
+    .menu {
+        right: 0;
+        left: 0;
+        text-align: center;
+        top: 50%;
+    }
+    .menu a {
+        font-size: 0.9em;
+    }
+    .logotip {
+        text-align: center;
+    }
+    .log {
+        padding-left: 0;
+    }
+    .log a {
+        font-size: 2em;
+    }
+    .cont {
+        font-size: 1.1em;
+    }
+}
+
+@media screen and (min-width: 600px) and (max-width: 1130px) {
+    .menu {
+        right: 0;
+        left: 0;
+        text-align: center;
+        top: 7.3em;
+    }
+    .logotip {
+        text-align: center;
+    }
+    .log {
+        padding-left: 0;
+    }
+    .log a {
+        font-size: 2.7em;
+        line-height: 0.7em;
+    }
+
+    .copyright {
+        font-size: 0.7em;
+    }
+}
+
+@media screen and (min-width: 321px) and (max-width: 600px) {
+    .menu {
+        right: 0;
+        left: 0;
+        text-align: center;
+        background: rgba(0, 0, 0, 0.0);
+        font-size: 1.3em;
+        position: relative;
+    }
+    .menu li {
+        display: block;
+    }
+    .menu a {
+        color: black;
+    }
+    .menu a:hover {
+        color: lightgray;
+    }
+    .menu .active {
+        color: gray;
+    }
+    .log a {
+        line-height: 0.82;
+    }
+    #toTop {
+        font-size: 1.3em;
+        right: 1px;
+        bottom: 0.5em;
+    }
+}
+
+@media screen and (min-width: 1131px) {
+    .wrap {
+        max-width: 1131px;
+        margin: auto;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    video {
+        display: none;
+    }
+    .over {
+        background-color: rgba(0, 0, 0, 1)
+    }
+    .menu_index {
+        right: 0;
+        left: 0;
+        text-align: center;
+        top: 50%;
+    }
+    .logotip {
+        text-align: center;
+
+    }
+    .log_index {
+        padding-left: 0;
+
+
+    }
+    .log_index a {
+        font-size: 2.5em;
+    }
+}
+
+@media screen and (min-width: 600px) and (max-width: 1130px) {
+    .menu_index {
+        right: 0;
+        left: 0;
+        text-align: center;
+        top: 40%;
+    }
+    .logotip {
+        text-align: center;
+    }
+    .log_index {
+        padding-left: 0;
+    }
+    .log_index a {
+        font-size: 2.8em;
+        line-height: 0.7em;
+    }
+
+    .copyright_index {
+        font-size: 0.7em;
+    }
+}
+
+@media screen and (min-width: 321px) and (max-width: 600px) {
+    .menu_index {
+        font-size: 1.3em;
+        top: 30%;
+        background: rgba(0, 0, 0, 0.0);
+
+    }
+    .menu_index li {
+        display: block;
+
+    }
+    .copyright_index {
+        font-size: 0.7em;
+    }
+    .log_index a {
+        line-height: 0.66;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-aspect-ratio: 16/9) {
+    #trailer>video {
+        height: 300%;
+        top: -100%;
+    }
+}
+
+@media (max-aspect-ratio: 16/9) {
+    #trailer>video {
+        width: 300%;
+        left: -100%;
+    }
+}
